@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>خاکی شاہ آٹوز | پروپرائٹر: محمد اختر</title>
+
+    <meta name="description"
+        content="خاکی شاہ آٹوز، پروپرائٹر محمد اختر۔ موٹر سائیکل مرمت، انجن، سروس، ویلڈنگ، گھر جا کر ویلڈنگ، اسکول، کالج، دفتر، دکان، فارم اور دیگر جگہوں پر ویلڈنگ و لوہے کے کام، سولر پلیٹ فریم اور ہر قسم کے ضروری کام۔">
+
+    <style>
+
+        @font-face {
+            font-family: "Jameel Noori Nastaleeq Web";
+            src:
+                url("fonts/JameelNooriNastaleeq.woff2") format("woff2"),
+                url("fonts/JameelNooriNastaleeq.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family:
+                "Jameel Noori Nastaleeq Web",
+                "Jameel Noori Nastaleeq",
+                "Noto Nastaliq Urdu",
+                Arial,
+                sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #222;
+            direction: rtl;
+            line-height: 2.25;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+
+            background: rgba(10, 15, 20, 0.97);
+
+            box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            min-height: 75px;
+            margin: auto;
+            padding: 0 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo {
+            color: #ffd000;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 7px 14px;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #e63946;
+            color: white;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 650px;
+            padding: 80px 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+            color: white;
+
+            position: relative;
+            overflow: hidden;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.78),
+                    rgba(0,0,0,0.78)
+                ),
+                linear-gradient(
+                    135deg,
+                    #111 0%,
+                    #8d0710 50%,
+                    #e63946 100%
+                );
+        }
+
+        .hero::before {
+            content: "";
+
+            position: absolute;
+
+            width: 450px;
+            height: 450px;
+
+            border: 60px solid rgba(255,208,0,0.08);
+            border-radius: 50%;
+
+            top: -180px;
+            right: -120px;
+        }
+
+        .hero::after {
+            content: "";
+
+            position: absolute;
+
+            width: 350px;
+            height: 350px;
+
+            border: 45px solid rgba(230,57,70,0.12);
+            border-radius: 50%;
+
+            bottom: -180px;
+            left: -100px;
+        }
+
+        .hero-content {
+            max-width: 950px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-icons {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 6vw, 68px);
+            color: #ffd000;
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+
+        .hero h2 {
+            font-size: clamp(28px, 4vw, 40px);
+            margin-bottom: 18px;
+            line-height: 1.7;
+        }
+
+        .hero p {
+            max-width: 850px;
+            margin: auto;
+            color: #eee;
+            font-size: 21px;
+            line-height: 2.3;
+        }
+
+        .hero-buttons {
+            margin-top: 30px;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 28px;
+            border-radius: 35px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background: #e63946;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #ffd000;
+            color: #111;
+            transform: translateY(-3px);
+        }
+
+        .btn-yellow {
+            background: #ffd000;
+            color: #111;
+        }
+
+        .btn-yellow:hover {
+            background: white;
+            transform: translateY(-3px);
+        }
+
+        /* QUICK INFO */
+
+        .quick-info {
+            max-width: 1100px;
+            margin: -45px auto 0;
+            padding: 0 20px;
+
+            position: relative;
+            z-index: 5;
+        }
+
+        .quick-box {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+
+            box-shadow: 0 15px 40px rgba(0,0,0,0.13);
+        }
+
+        .quick-item {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .quick-item .icon {
+            font-size: 35px;
+        }
+
+        .quick-item h3 {
+            color: #e63946;
+            font-size: 23px;
+            line-height: 1.7;
+        }
+
+        .quick-item p {
+            color: #666;
+            font-size: 17px;
+            line-height: 2;
+        }
+
+        /* COMMON */
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title .small-title {
+            color: #e63946;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .section-title h2 {
+            color: #111;
+            font-size: clamp(34px, 5vw, 45px);
+            margin: 5px 0;
+            line-height: 1.8;
+        }
+
+        .section-title p {
+            color: #777;
+            font-size: 18px;
+        }
+
+        /* ABOUT */
+
+        .about-box {
+            background: white;
+            border-radius: 25px;
+            padding: 45px;
+
+            box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about-profile {
+            text-align: center;
+
+            background: linear-gradient(135deg,#111,#333);
+
+            border-radius: 20px;
+            padding: 35px 20px;
+            color: white;
+        }
+
+        .profile-icon {
+            width: 120px;
+            height: 120px;
+
+            margin: auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 50%;
+            background: #ffd000;
+            color: #111;
+            font-size: 65px;
+        }
+
+        .about-profile h3 {
+            color: #ffd000;
+            font-size: 30px;
+            margin-top: 15px;
+        }
+
+        .about-profile p {
+            color: #ddd;
+            font-size: 18px;
+        }
+
+        .about-text h3 {
+            color: #e63946;
+            font-size: 31px;
+            margin-bottom: 10px;
+        }
+
+        .about-text p {
+            color: #555;
+            font-size: 19px;
+            margin-bottom: 14px;
+            line-height: 2.4;
+        }
+
+        /* SERVICES */
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 22px;
+        }
+
+        .service {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 20px;
+
+            text-align: center;
+
+            border-bottom: 5px solid #e63946;
+
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+
+            transition: 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.13);
+        }
+
+        .service-icon {
+            width: 75px;
+            height: 75px;
+
+            margin: 0 auto 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #fff4f4;
+            border-radius: 20px;
+            font-size: 40px;
+        }
+
+        .service h3 {
+            color: #e63946;
+            font-size: 24px;
+            margin-bottom: 8px;
+            line-height: 1.8;
+        }
+
+        .service p {
+            color: #666;
+            font-size: 17px;
+            line-height: 2.1;
+        }
+
+        /* NEW WORK SECTION */
+
+        .work-section {
+            margin-top: 10px;
+            padding: 60px 30px;
+
+            border-radius: 25px;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.84),
+                    rgba(0,0,0,0.84)
+                ),
+                linear-gradient(
+                    135deg,
+                    #222,
+                    #9d0208
+                );
+
+            color: white;
+            text-align: center;
+        }
+
+        .work-section h2 {
+            color: #ffd000;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .work-section > p {
+            max-width: 900px;
+            margin: auto;
+            color: #eee;
+            font-size: 19px;
+            line-height: 2.4;
+        }
+
+        .work-grid {
+            margin-top: 35px;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .work-card {
+            background: rgba(255,255,255,0.08);
+
+            border: 1px solid rgba(255,255,255,0.15);
+
+            border-radius: 18px;
+            padding: 25px 15px;
+
+            transition: 0.3s;
+        }
+
+        .work-card:hover {
+            background: rgba(255,208,0,0.12);
+            transform: translateY(-6px);
+            border-color: #ffd000;
+        }
+
+        .work-card .icon {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+
+        .work-card h3 {
+            color: #ffd000;
+            font-size: 23px;
+            line-height: 1.8;
+        }
+
+        .work-card p {
+            color: #eee;
+            font-size: 16px;
+            line-height: 2;
+        }
+
+        /* WELDING */
+
+        .welding-section {
+            margin-top: 10px;
+            padding: 60px 30px;
+            border-radius: 25px;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.82),
+                    rgba(0,0,0,0.82)
+                ),
+                linear-gradient(
+                    135deg,
+                    #222,
+                    #9d0208
+                );
+
+            color: white;
+            text-align: center;
+        }
+
+        .welding-section h2 {
+            color: #ffd000;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .welding-section > p {
+            max-width: 850px;
+            margin: auto;
+            color: #eee;
+            font-size: 19px;
+            line-height: 2.4;
+        }
+
+        .welding-list {
+            margin-top: 35px;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .welding-item {
+            background: rgba(255,255,255,0.08);
+
+            border: 1px solid rgba(255,255,255,0.15);
+
+            border-radius: 15px;
+            padding: 20px 10px;
+        }
+
+        .welding-item span {
+            display: block;
+            font-size: 35px;
+        }
+
+        .welding-item strong {
+            font-size: 19px;
+            line-height: 2;
+        }
+
+        /* SPECIAL */
+
+        .special {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .special-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .special-card {
+            background: #111;
+            color: white;
+            padding: 25px 15px;
+            border-radius: 18px;
+            border-top: 4px solid #ffd000;
+        }
+
+        .special-card .icon {
+            font-size: 35px;
+        }
+
+        .special-card h3 {
+            color: #ffd000;
+            font-size: 22px;
+            line-height: 1.8;
+        }
+
+        .special-card p {
+            font-size: 17px;
+            line-height: 2;
+        }
+
+        /* CONTACT */
+
+        .contact-section {
+            background:
+                linear-gradient(
+                    135deg,
+                    #e63946,
+                    #9d0208
+                );
+
+            color: white;
+            padding: 80px 20px;
+        }
+
+        .contact-wrapper {
+            max-width: 1100px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+        }
+
+        .contact-content h2 {
+            color: #ffd000;
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .contact-content > p {
+            color: #fff;
+            font-size: 19px;
+            margin-bottom: 25px;
+            line-height: 2.4;
+        }
+
+        .contact-detail {
+            margin: 15px 0;
+            padding: 15px;
+
+            background: rgba(0,0,0,0.15);
+
+            border-radius: 12px;
+            font-size: 19px;
+        }
+
+        .contact-detail strong {
+            color: #ffd000;
+        }
+
+        .contact-buttons {
+            margin-top: 25px;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .phone {
+            display: inline-block;
+
+            background: white;
+            color: #111;
+
+            padding: 11px 22px;
+            border-radius: 30px;
+
+            text-decoration: none;
+
+            font-size: 19px;
+            font-weight: bold;
+
+            transition: 0.3s;
+        }
+
+        .phone:hover {
+            background: #ffd000;
+            transform: scale(1.04);
+        }
+
+        .contact-card {
+            background: white;
+            color: #222;
+
+            padding: 35px;
+            border-radius: 22px;
+
+            box-shadow: 0 10px 35px rgba(0,0,0,0.18);
+        }
+
+        .contact-card h3 {
+            color: #e63946;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .contact-card p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 12px;
+            line-height: 2.3;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #080808;
+            color: #aaa;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer strong {
+            color: #ffd000;
+        }
+
+        footer p {
+            margin: 4px 0;
+            font-size: 17px;
+        }
+
+        /* FLOATING CALL */
+
+        .floating-call {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+
+            width: 62px;
+            height: 62px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #16a34a;
+            color: white;
+
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 28px;
+
+            box-shadow: 0 7px 25px rgba(0,0,0,0.25);
+
+            z-index: 999;
+        }
+
+        .floating-call:hover {
+            transform: scale(1.1);
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 1000px) {
+
+            .services {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .welding-list,
+            .work-grid,
+            .special-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .about-box {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 750px) {
+
+            .nav-container {
+                flex-direction: column;
+                padding: 12px 10px;
+            }
+
+            .logo {
+                font-size: 22px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .nav-links a {
+                font-size: 16px;
+                padding: 5px 9px;
+            }
+
+            .hero {
+                min-height: 600px;
+                padding: 70px 15px;
+            }
+
+            .hero-icons {
+                font-size: 50px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .quick-box {
+                grid-template-columns: 1fr;
+            }
+
+            .quick-info {
+                margin-top: -25px;
+            }
+
+            .container {
+                padding: 55px 15px;
+            }
+
+            .about-box {
+                padding: 25px 18px;
+            }
+
+            .about-text p {
+                font-size: 17px;
+            }
+
+            .services,
+            .welding-list,
+            .work-grid,
+            .special-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .work-section,
+            .welding-section {
+                padding: 45px 18px;
+            }
+
+            .work-section h2,
+            .welding-section h2 {
+                font-size: 32px;
+            }
+
+            .contact-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-content h2 {
+                font-size: 34px;
+            }
+
+            .contact-card {
+                padding: 25px 20px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                🔧 خاکی شاہ آٹوز
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">ہوم</a>
+                </li>
+
+                <li>
+                    <a href="#about">ہمارے بارے میں</a>
+                </li>
+
+                <li>
+                    <a href="#services">سروسز</a>
+                </li>
+
+                <li>
+                    <a href="#work">تمام کام</a>
+                </li>
+
+                <li>
+                    <a href="#welding">ویلڈنگ</a>
+                </li>
+
+                <li>
+                    <a href="#contact">رابطہ</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <header class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="hero-icons">
+                🏍️ 🔧 ⚡
+            </div>
+
+            <h1>
+                خاکی شاہ آٹوز
+            </h1>
+
+            <h2>
+                پروپرائٹر: محمد اختر
+            </h2>
+
+            <p>
+                موٹر سائیکل مرمت، انجن کا کام، سروس، ٹیوننگ،
+                ویلڈنگ، گھر جا کر ویلڈنگ، اسکول، کالج، دکان،
+                دفتر، فارم اور دیگر جگہوں پر ویلڈنگ و لوہے کے
+                مختلف کام، سولر پلیٹ فریم اور ضرورت کے مطابق
+                ہر قسم کے کام کی سہولت۔
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn btn-primary">
+                    📞 ابھی رابطہ کریں
+                </a>
+
+                <a href="#services" class="btn btn-yellow">
+                    🔧 ہماری خدمات دیکھیں
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- QUICK INFO -->
+
+    <div class="quick-info">
+
+        <div class="quick-box">
+
+            <div class="quick-item">
+
+                <div class="icon">🏍️</div>
+
+                <h3>
+                    موٹر سائیکل کام
+                </h3>
+
+                <p>
+                    مرمت، انجن، سروس اور ٹیوننگ
+                </p>
+
+            </div>
+
+
+            <div class="quick-item">
+
+                <div class="icon">🔥</div>
+
+                <h3>
+                    ویلڈنگ
+                </h3>
+
+                <p>
+                    گھر، دکان، اسکول، دفتر اور فارم
+                </p>
+
+            </div>
+
+
+            <div class="quick-item">
+
+                <div class="icon">☀️</div>
+
+                <h3>
+                    سولر فریم
+                </h3>
+
+                <p>
+                    مضبوط اور ضرورت کے مطابق فریم
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MAIN -->
+
+    <main>
+
+
+        <!-- ABOUT -->
+
+        <section class="container" id="about">
+
+            <div class="section-title">
+
+                <div class="small-title">
+                    👨‍🔧 ہمارے بارے میں
+                </div>
+
+                <h2>
+                    خاکی شاہ آٹوز — معیاری کام، مناسب خدمت
+                </h2>
+
+                <p>
+                    موٹر سائیکل اور ویلڈنگ کے مختلف کام ایک ہی جگہ
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <div class="about-profile">
+
+                    <div class="profile-icon">
+                        👨‍🔧
+                    </div>
+
+                    <h3>
+                        محمد اختر
+                    </h3>
+
+                    <p>
+                        پروپرائٹر
+                    </p>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h3>
+                        خاکی شاہ آٹوز
+                    </h3>
+
+                    <p>
+                        خاکی شاہ آٹوز میں موٹر سائیکل کے مختلف
+                        مکینیکل کام کیے جاتے ہیں۔ موٹر سائیکل کے
+                        انجن، مرمت، سروس، ٹیوننگ اور دیگر ضروری
+                        کام کی سہولت موجود ہے۔
+                    </p>
+
+                    <p>
+                        اس کے علاوہ مختلف قسم کے ویلڈنگ کے کام بھی
+                        کیے جاتے ہیں۔ ضرورت کے مطابق گھر جا کر
+                        ویلڈنگ کا کام کرنے کی سہولت بھی موجود ہے۔
+                    </p>
+
+                    <p>
+                        اسکول، کالج، دکان، دفتر، فارم، گھر اور
+                        دیگر جگہوں پر بھی ضرورت کے مطابق
+                        ویلڈنگ اور لوہے کے کام کیے جاتے ہیں۔
+                    </p>
+
+                    <p>
+                        سولر پلیٹ کے فریم بھی ضرورت اور سائز کے
+                        مطابق تیار کیے جاتے ہیں۔
+                    </p>
+
+                    <p>
+                        اگر آپ کو کسی بھی قسم کا لوہے، ویلڈنگ یا
+                        متعلقہ کام کروانا ہو تو رابطہ کریں۔
+                        کام کی نوعیت کے مطابق موقع پر کام کرنے
+                        کی سہولت بھی دستیاب ہے۔
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+
+        <section class="container" id="services">
+
+            <div class="section-title">
+
+                <div class="small-title">
+                    🔧 ہماری خدمات
+                </div>
+
+                <h2>
+                    ہم کون کون سے کام کرتے ہیں؟
+                </h2>
+
+                <p>
+                    آپ کی ضرورت کے مطابق مختلف کام
+                </p>
+
+            </div>
+
+
+            <div class="services">
+
+                <div class="service">
+                    <div class="service-icon">🏍️</div>
+                    <h3>موٹر سائیکل مرمت</h3>
+                    <p>
+                        موٹر سائیکل کے مختلف مکینیکل کام
+                        تسلی بخش طریقے سے کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">⚙️</div>
+                    <h3>انجن کا کام</h3>
+                    <p>
+                        موٹر سائیکل کے انجن کی مرمت،
+                        چیکنگ اور ضروری کام کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🔩</div>
+                    <h3>اسپیئر پارٹس</h3>
+                    <p>
+                        موٹر سائیکل کے مختلف ضروری
+                        اسپیئر پارٹس دستیاب ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🛠️</div>
+                    <h3>موٹر سائیکل سروس</h3>
+                    <p>
+                        موٹر سائیکل کی سروس، ٹیوننگ
+                        اور دیگر ضروری کام کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🔥</div>
+                    <h3>ویلڈنگ کا کام</h3>
+                    <p>
+                        مختلف قسم کے ویلڈنگ کے کام
+                        تسلی بخش طریقے سے کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🏠</div>
+                    <h3>گھر جا کر ویلڈنگ</h3>
+                    <p>
+                        ضرورت کے مطابق گھر جا کر
+                        ویلڈنگ کا کام کرنے کی سہولت۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">☀️</div>
+                    <h3>سولر پلیٹ فریم</h3>
+                    <p>
+                        سولر پلیٹ کے لیے مضبوط اور
+                        ضرورت کے مطابق فریم تیار کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🏢</div>
+                    <h3>دفتروں میں ویلڈنگ</h3>
+                    <p>
+                        دفتروں اور دیگر جگہوں پر
+                        ضرورت کے مطابق ویلڈنگ کا کام۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🚜</div>
+                    <h3>فارموں میں ویلڈنگ</h3>
+                    <p>
+                        فارموں اور زرعی جگہوں پر
+                        مختلف ضروری ویلڈنگ کے کام۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🏫</div>
+                    <h3>اسکول اور کالج میں ویلڈنگ</h3>
+                    <p>
+                        اسکول، کالج اور تعلیمی اداروں میں
+                        ضرورت کے مطابق ویلڈنگ اور لوہے کے کام۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">🏪</div>
+                    <h3>دکانوں میں ویلڈنگ</h3>
+                    <p>
+                        دکانوں، مارکیٹ اور کاروباری جگہوں پر
+                        مختلف ویلڈنگ کے کام۔
+                    </p>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-icon">⭐</div>
+                    <h3>مکمل ویلڈنگ و لوہے کا کام</h3>
+                    <p>
+                        ضرورت کے مطابق مختلف لوہے اور
+                        ویلڈنگ کے کام بھی کیے جاتے ہیں۔
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEW COMPLETE WORK SECTION -->
+
+        <section class="container" id="work">
+
+            <div class="work-section">
+
+                <h2>
+                    🏫 ہر جگہ ویلڈنگ اور لوہے کے کام کی سہولت
+                </h2>
+
+                <p>
+                    خاکی شاہ آٹوز میں صرف دکان پر ہی نہیں بلکہ
+                    ضرورت کے مطابق مختلف جگہوں پر جا کر بھی
+                    ویلڈنگ اور لوہے کے کام کیے جاتے ہیں۔
+                    اگر اسکول، کالج، گھر، دکان، دفتر، فارم،
+                    مارکیٹ یا کسی بھی دوسری جگہ پر ویلڈنگ یا
+                    لوہے کا کام درکار ہو تو رابطہ کریں۔
+                </p>
+
+
+                <div class="work-grid">
+
+                    <div class="work-card">
+
+                        <div class="icon">🏫</div>
+
+                        <h3>
+                            اسکول
+                        </h3>
+
+                        <p>
+                            اسکول میں ضرورت کے مطابق
+                            ویلڈنگ اور لوہے کے کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🎓</div>
+
+                        <h3>
+                            کالج
+                        </h3>
+
+                        <p>
+                            کالج اور تعلیمی اداروں میں
+                            مختلف ویلڈنگ کے کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🏠</div>
+
+                        <h3>
+                            گھر
+                        </h3>
+
+                        <p>
+                            گھر جا کر ضرورت کے مطابق
+                            ویلڈنگ کا کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🏪</div>
+
+                        <h3>
+                            دکان
+                        </h3>
+
+                        <p>
+                            دکانوں اور مارکیٹ میں
+                            ویلڈنگ اور لوہے کے کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🏢</div>
+
+                        <h3>
+                            دفتر
+                        </h3>
+
+                        <p>
+                            دفاتر میں ضرورت کے مطابق
+                            ویلڈنگ اور مرمت کا کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🚜</div>
+
+                        <h3>
+                            فارم
+                        </h3>
+
+                        <p>
+                            فارموں اور زرعی جگہوں پر
+                            مختلف ویلڈنگ کے کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🏗️</div>
+
+                        <h3>
+                            لوہے کا کام
+                        </h3>
+
+                        <p>
+                            مختلف قسم کے لوہے اور
+                            ویلڈنگ کے کام۔
+                        </p>
+
+                    </div>
+
+
+                    <div class="work-card">
+
+                        <div class="icon">🛠️</div>
+
+                        <h3>
+                            کوئی بھی مناسب کام
+                        </h3>
+
+                        <p>
+                            اگر کام ویلڈنگ یا لوہے سے
+                            متعلق ہے تو رابطہ کریں۔
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WELDING -->
+
+        <section class="container" id="welding">
+
+            <div class="welding-section">
+
+                <h2>
+                    🔥 ویلڈنگ کے تمام ضروری کام
+                </h2>
+
+                <p>
+                    سولر پلیٹ فریم کے علاوہ مختلف جگہوں پر
+                    ضرورت کے مطابق ویلڈنگ کا کام کیا جاتا ہے۔
+                    گھر، اسکول، کالج، دکان، دفتر، فارم اور
+                    دیگر جگہوں پر کام کرنے کی سہولت موجود ہے۔
+                </p>
+
+
+                <div class="welding-list">
+
+                    <div class="welding-item">
+                        <span>🏠</span>
+                        <strong>
+                            گھر جا کر ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🏫</span>
+                        <strong>
+                            اسکول میں ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🎓</span>
+                        <strong>
+                            کالج میں ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🏢</span>
+                        <strong>
+                            دفتروں میں ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🏪</span>
+                        <strong>
+                            دکانوں میں ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🚜</span>
+                        <strong>
+                            فارموں میں ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>☀️</span>
+                        <strong>
+                            سولر پلیٹ فریم
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🏗️</span>
+                        <strong>
+                            لوہے کا کام
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🔥</span>
+                        <strong>
+                            دیگر ویلڈنگ
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🔩</span>
+                        <strong>
+                            مرمت کا ویلڈنگ کام
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>🛠️</span>
+                        <strong>
+                            موقع پر کام
+                        </strong>
+                    </div>
+
+                    <div class="welding-item">
+                        <span>⭐</span>
+                        <strong>
+                            ضرورت کے مطابق کام
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SPECIAL SERVICES -->
+
+        <section class="container special">
+
+            <div class="section-title">
+
+                <div class="small-title">
+                    ⭐ خاص سہولیات
+                </div>
+
+                <h2>
+                    ہماری خاص خدمات
+                </h2>
+
+            </div>
+
+
+            <div class="special-grid">
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🏍️
+                    </div>
+
+                    <h3>
+                        موٹر سائیکل کا کام
+                    </h3>
+
+                    <p>
+                        مرمت، انجن، سروس اور ٹیوننگ
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🔥
+                    </div>
+
+                    <h3>
+                        ویلڈنگ
+                    </h3>
+
+                    <p>
+                        مختلف قسم کے ویلڈنگ کے کام
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🏫
+                    </div>
+
+                    <h3>
+                        اداروں میں کام
+                    </h3>
+
+                    <p>
+                        اسکول، کالج، دفتر اور دکانوں میں کام
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🏠
+                    </div>
+
+                    <h3>
+                        موقع پر کام
+                    </h3>
+
+                    <p>
+                        ضرورت کے مطابق موقع پر ویلڈنگ
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🚜
+                    </div>
+
+                    <h3>
+                        فارموں میں کام
+                    </h3>
+
+                    <p>
+                        فارم اور زرعی جگہوں پر ویلڈنگ
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        ☀️
+                    </div>
+
+                    <h3>
+                        سولر فریم
+                    </h3>
+
+                    <p>
+                        سولر پلیٹ کے مضبوط فریم
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        🏗️
+                    </div>
+
+                    <h3>
+                        لوہے کا کام
+                    </h3>
+
+                    <p>
+                        مختلف قسم کے لوہے کے کام
+                    </p>
+
+                </div>
+
+
+                <div class="special-card">
+
+                    <div class="icon">
+                        ⭐
+                    </div>
+
+                    <h3>
+                        دیگر کام
+                    </h3>
+
+                    <p>
+                        ضرورت کے مطابق متعلقہ کام
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="contact-wrapper">
+
+            <div class="contact-content">
+
+                <h2>
+                    📞 ہم سے رابطہ کریں
+                </h2>
+
+                <p>
+                    موٹر سائیکل، انجن، ویلڈنگ،
+                    سولر پلیٹ فریم، اسکول، کالج،
+                    دکان، دفتر، فارم یا کسی بھی جگہ
+                    پر ویلڈنگ و لوہے کے کام کے لیے رابطہ کریں۔
+                </p>
+
+
+                <div class="contact-detail">
+
+                    📍
+
+                    <strong>
+                        ایڈریس:
+                    </strong>
+
+                    عارف والا روڈ، اڈا جھانب،
+                    تحصیل عارف والا، ضلع پاکپتن شریف
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    👨‍🔧
+
+                    <strong>
+                        پروپرائٹر:
+                    </strong>
+
+                    محمد اختر
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    🔧
+
+                    <strong>
+                        خدمات:
+                    </strong>
+
+                    موٹر سائیکل، ویلڈنگ، لوہے کا کام،
+                    سولر فریم، اسکول، کالج، دفتر،
+                    دکان اور فارموں میں کام
+
+                </div>
+
+
+                <div class="contact-buttons">
+
+                    <a
+                        class="phone"
+                        href="tel:03045846415">
+
+                        📞 0304-5846415
+
+                    </a>
+
+
+                    <a
+                        class="phone"
+                        href="tel:03446684615">
+
+                        📞 0344-6684615
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>
+                    🔧 کام کے لیے رابطہ کریں
+                </h3>
+
+                <p>
+                    موٹر سائیکل کا کام ہو یا ویلڈنگ،
+                    سولر پلیٹ فریم بنوانا ہو یا
+                    اسکول، کالج، دکان، دفتر اور فارم
+                    میں ویلڈنگ کروانی ہو، رابطہ کریں۔
+                </p>
+
+                <p>
+                    اگر آپ کو کسی بھی قسم کا
+                    مناسب ویلڈنگ یا لوہے کا کام
+                    کروانا ہے تو کام کی تفصیل بتائیں۔
+                </p>
+
+                <p>
+                    <strong>
+                        📍 عارف والا روڈ، اڈا جھانب،
+                        تحصیل عارف والا، ضلع پاکپتن شریف
+                    </strong>
+                </p>
+
+                <p>
+                    <strong>
+                        👨‍🔧 پروپرائٹر: محمد اختر
+                    </strong>
+                </p>
+
+                <br>
+
+                <a
+                    href="tel:03045846415"
+                    class="btn btn-primary">
+
+                    📞 ابھی کال کریں
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+
+            © 2026
+
+            <strong>
+                خاکی شاہ آٹوز
+            </strong>
+
+            | پروپرائٹر: محمد اختر
+
+        </p>
+
+        <p>
+            عارف والا روڈ، اڈا جھانب،
+            تحصیل عارف والا، ضلع پاکپتن شریف
+        </p>
+
+        <p>
+            🏍️ موٹر سائیکل
+            |
+            🔥 ویلڈنگ
+            |
+            🏫 اسکول و کالج
+            |
+            🏢 دفتر
+            |
+            🚜 فارم
+            |
+            ☀️ سولر فریم
+        </p>
+
+    </footer>
+
+
+    <!-- FLOATING CALL BUTTON -->
+
+    <a
+        href="tel:03045846415"
+        class="floating-call"
+        title="کال کریں">
+
+        📞
+
+    </a>
+
+</body>
+
+</html>
